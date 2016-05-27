@@ -102,7 +102,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>bbtree-solr-sdk</finalName>
+		<finalName>solr-sdk</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -148,39 +148,6 @@
 	</build>
 
 	<profiles>
-		<profile>
-			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<properties>
-				<profiles.active>dev</profiles.active>
-			</properties>
-		</profile>
-		<profile>
-			<id>int-test</id>
-			<properties>
-				<profiles.active>int-test</profiles.active>
-			</properties>
-		</profile>
-		<profile>
-			<id>beta</id>
-			<properties>
-				<profiles.active>beta</profiles.active>
-			</properties>
-		</profile>
-		<profile>
-			<id>pre</id>
-			<properties>
-				<profiles.active>pre</profiles.active>
-			</properties>
-		</profile>
-		<profile>
-			<id>prod</id>
-			<properties>
-				<profiles.active>prod</profiles.active>
-			</properties>
-		</profile>
 
 	</profiles>
 </project>
